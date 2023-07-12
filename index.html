@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>App Clima</title>
+</head>
+<body>
+
+  <div class="container-search">
+    <div class="search-box">
+      <i class="fa-solid fa-location-dot"></i>
+      <input type="text" placeholder="Digite Sua Localização">
+      <button class="fa-solid fa-magnifying-glass"></button>
+    </div>
+  </div>
+
+  <div class="container-weather">
+    <div class="card">
+      <img class="weather" width="100px" height="100px" src="">
+      <div class="main"><span></span></div>
+      <div class="mainsub"><span></span></div>  
+    </div>
+  
+    <div class="card2">
+      <div class="upper">
+        <div class="humidity">
+          <div class="humiditytext">Humidity<br><span></span></div>
+          <img src="./assets/humidity.png" width="30px" height="30px" alt="">
+        </div>
+  
+        <div class="air">
+          <div class="airtext">Wind<br><span></span></div>
+          <img src="./assets/wind.png" width="30px" height="30px" alt="">
+        </div>
+      </div>
+  
+      <div class="lower">
+        <div class="aqi">
+          <img src="./assets/aqi.png" width="20px" height="20px" alt="">
+          <div class="aqitext">Desc.<br><span></span></div>
+        </div>
+  
+        <div class="realfeel">
+          <img src="./assets/real-feel.png" width="20px" height="20px" alt="">
+          <div class="realfeeltext">Real Feel<br><span></span></div>
+        </div>
+  
+        <div class="pressure">
+          <img src="./assets/pressure.png" width="20px" height="20px" alt="">
+          <div class="pressuretext">Pressure<br><span></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
